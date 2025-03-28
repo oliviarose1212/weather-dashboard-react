@@ -1,0 +1,56 @@
+.forecast-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .forecast-container h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Temperature Trend Graph */
+  .chart-container {
+    margin-bottom: 20px;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Forecast Cards */
+  .forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .forecast-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .forecast-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .forecast-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
